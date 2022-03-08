@@ -1,0 +1,58 @@
+body,
+header,
+nav,
+main,
+section,
+footer,
+.flex-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.column {
+    flex-direction: column;
+}
+
+header {
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+header > *:first-child {
+    margin-left: 15vw;
+}
+
+header > *:last-child {
+    margin-right: 15vw;
+    gap: 24px;
+}
+
+.visually-hidden {
+    height: 1px;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0.01;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.header-link,
+.header-link:visited {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.dark-bg {
+    background-color: #1F2937;
+}
