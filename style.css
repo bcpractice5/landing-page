@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap');
+
 body,
 header,
 nav,
@@ -117,4 +119,28 @@ figure {
     border: 3px solid #3882E6;
     border-radius: 12px;
     margin-bottom: 1ex;
+}
+
+.third-section {
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.third-section blockquote {
+    margin: 100px;
+}
+
+.third-section p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.third-section figcaption {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
 }
