@@ -27,7 +27,8 @@ header {
 }
 
 header,
-section {
+section,
+footer {
     padding: 0 15vw;
 }
 
@@ -137,6 +138,7 @@ figure {
 }
 
 .third-section p {
+    color: #1F2937;
     margin: 0;
     font-size: 36px;
     font-weight: lighter;
@@ -177,3 +179,16 @@ figure {
 .fourth-section button {
     border: 3px solid white;
 }
+
+footer {
+    background-color: #1F2937;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
+    }
