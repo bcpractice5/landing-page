@@ -8,7 +8,7 @@ footer,
     margin: 0;
     padding: 0;
     display: flex;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .column {
@@ -21,13 +21,14 @@ header {
     padding: 12px 0px;
 }
 
-header > *:first-child {
-    margin-left: 15vw;
+header,
+section {
+    padding: 0 15vw;
 }
 
 header > *:last-child {
-    margin-right: 15vw;
     gap: 24px;
+    padding: 18px 0;
 }
 
 .visually-hidden {
@@ -39,15 +40,21 @@ header > *:last-child {
     opacity: 0.01;
 }
 
+.header-logo,
+.hero-header,
+.hero-text {
+    color: #F9FAF8;
+}
+
 .header-logo {
     font-size: 24px;
-    color: #F9FAF8;
-    margin-right: auto;
     font-weight: bold;
+    margin-right: auto;
 }
 
 .header-link,
-.header-link:visited {
+.header-link:visited,
+.hero-text {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -55,4 +62,29 @@ header > *:last-child {
 
 .dark-bg {
     background-color: #1F2937;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 1000;
+    margin: 0;
+}
+
+.first-section > * {
+    flex: 0 0 35vw;
+    margin: 92px 0;
+    justify-content: center;
+    align-items:flex-start;
+}
+.first-section button {
+    color: white;
+    background-color: #3882E6;
+    width: fit-content;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+}
+
+.first-section > img {
+ width: 35vw;
 }
