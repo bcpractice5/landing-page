@@ -1,7 +1,6 @@
 body,
 header,
 nav,
-main,
 section,
 footer,
 .flex-container {
@@ -15,9 +14,13 @@ footer,
     flex-direction: column;
 }
 
+header,
+.second-section {
+    align-items: center;
+}
+
 header {
     justify-content: flex-end;
-    align-items: center;
     padding: 12px 0px;
 }
 
@@ -79,6 +82,7 @@ header > *:last-child {
 .first-section button {
     color: white;
     background-color: #3882E6;
+    font-weight: bold;
     width: fit-content;
     padding: 8px 24px;
     border-radius: 8px;
@@ -87,4 +91,30 @@ header > *:last-child {
 
 .first-section > img {
  width: 35vw;
+ height: auto;
+}
+
+.second-section h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin: 48px 0;
+}
+
+figure,
+.second-section img {
+    width: 10vw;
+    height: auto;
+    box-sizing: border-box;
+}
+
+figure {
+    margin: 0 24px 64px;
+    text-align: center;
+}
+
+.second-section img {
+    border: 3px solid #3882E6;
+    border-radius: 12px;
+    margin-bottom: 1ex;
 }
