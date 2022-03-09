@@ -81,13 +81,18 @@ header > *:last-child {
     justify-content: center;
     align-items:flex-start;
 }
-.first-section button {
+
+.first-section button,
+.fourth-section button {
     color: white;
     background-color: #3882E6;
     font-weight: bold;
     width: fit-content;
-    padding: 8px 24px;
+    padding: 8px 36px;
     border-radius: 8px;
+}
+
+.first-section button {
     border: none;
 }
 
@@ -143,4 +148,32 @@ figure {
     font-size: 20px;
     font-weight: bold;
     text-align: end;
+}
+
+.fourth-section {
+    background-color: white;
+    padding: 64px;
+}
+
+.fourth-section,
+.fourth-section > div {
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section > div {
+    background-color: #3882E6;
+    border-radius: 8px;
+    padding: 36px 128px;
+    gap: 128px;
+}
+
+.fourth-section h2,
+.fourth-section p {
+    color: white;
+    margin: 0;
+}
+
+.fourth-section button {
+    border: 3px solid white;
 }
